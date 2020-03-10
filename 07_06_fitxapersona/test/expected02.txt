@@ -1,0 +1,8 @@
+Quin és el teu nom?
+Quins són els teus cognoms?
+Quina és la teva edat?
+
+Fitxa
+=====
+Nom: Marc Alier Cigüenza
+Edat: 1 any
