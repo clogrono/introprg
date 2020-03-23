@@ -8,5 +8,16 @@
  * Segueix les instruccions
  */
 public class InformePersona {
-    // XXX TODO: està tot per fer!
+    static String mostrarResultat(String nom,String cognom , int edat) {
+        return String.format(
+                "Fitxa \n=====\nNom: %s %s \nEdat: %d. anys",
+                nom,
+                cognom,
+                edat
+        );
+    }
+    public static void main(String[] args) {
+        String missatge  = mostrarResultat( "Laia"," Sánchez d'Àrgent", 19 );
+        System.out.println(missatge);
+    }
 }
