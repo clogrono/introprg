@@ -1,23 +1,27 @@
-/*
- * Aquí has de crear la classe que se't demana
- * Et poso l'esquema per ser la primera
- *
- * Un cop el tinguis, des de la línia de comandes, tecleja
- * bash test/test.sh
- *
- * Segueix les instruccions
- */
+import java.util.Scanner;
 public class InformePersona {
+    
     static String mostrarResultat(String nom,String cognom , int edat) {
         return String.format(
-                "Fitxa \n=====\nNom: %s %s \nEdat: %d. anys",
+            "\nFitxa\n=====\nNom: %s %s\nEdat: %d anys\n",
                 nom,
-                cognom,
+                cognom, 
                 edat
         );
     }
+
     public static void main(String[] args) {
-        String missatge  = mostrarResultat( "Laia"," Sánchez d'Àrgent", 19 );
+        String nom;
+        String cognom;
+        int edat;
+        Scanner dadesIntro =new Scanner(System.in);
+        System.out.println("Quin és el teu nom?");
+        nom=dadesIntro.nextLine();
+        System.out.println("Quins són els teus cognoms?");
+        cognom=dadesIntro.nextLine();
+        System.out.println("Quina és la teva edat?");
+        edat=dadesIntro.nextInt();
+        String missatge  = mostrarResultat( nom,cognom, edat );
         System.out.println(missatge);
     }
 }
