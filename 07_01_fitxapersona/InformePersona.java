@@ -3,7 +3,7 @@ public class InformePersona {
     
     static String mostrarResultat(String nom,String cognom , int edat) {
         return String.format(
-            "\nFitxa\n=====\nNom: %s %s\nEdat: %d anys\n",
+            "\nFitxa\n=====\nNom: %s %s\nEdat: %d anys",
                 nom,
                 cognom, 
                 edat
