@@ -3,10 +3,11 @@ public class InformePersona {
     
     static String mostrarResultat(String nom,String cognom , int edat) {
         return String.format(
-            "\nFitxa\n=====\nNom: %s %s\nEdat: %d anys",
+            "\nFitxa\n=====\nNom: %s %s\nEdat: %d %s",
                 nom,
                 cognom, 
-                edat
+                edat,
+                edat > 1 ? "anys" : "any"
         );
     }
 
