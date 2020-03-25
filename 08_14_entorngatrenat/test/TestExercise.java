@@ -204,11 +204,11 @@ public class TestExercise {
 
         @Test
         public void testProcessaEstirat() {
-            String resposta = entornAmbGatIntern.processaEntrada("seu");
-            assertEquals("m'assec", resposta);
+            String resposta = entornAmbGatIntern.processaEntrada("estira't");
+            assertEquals("m'estiro", resposta);
 
-            entornAmbGatExtern.processaEntrada("seu");
-            assertEquals("assegut", renat.getEstatComString());
+            entornAmbGatExtern.processaEntrada("estira't");
+            assertEquals("estirat", renat.getEstatComString());
         }
 
     }
