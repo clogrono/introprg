@@ -9,7 +9,7 @@ then
 fi
 
 current=$(dirname "$0")
-#diffoptions="-EZbB"
+diffoptions="-EZbB"
 programa=$1
 tmpfile=$(mktemp)
 errors=0
