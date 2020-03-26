@@ -3,7 +3,7 @@ public class InformePersona {
     
     static String composaFitxa(String nom,String cognoms , int edat) {
         return String.format(
-            "\nFitxa\n=====\nNom: %s %s\nEdat: %d %s",
+            "Fitxa\n=====\nNom: %s %s\nEdat: %d %s\n",
                 nom,
                 cognoms, 
                 edat,
