@@ -1,28 +1,28 @@
 public class GatRenat {
    
-    GatEstat gatEstat;
+    GatEstat gatEstat = GatEstat.ESTIRAT;
     int vides = 7;
-    String estat = "estirat";
+    
 
     public String aixecat(){
-        if(estat != "dret"){
-            this.estat = "dret";
+        if(gatEstat != gatEstat.DRET){
+            this.gatEstat = gatEstat.DRET;
             return "m'aixeco";
         }
         else return"no faig res";
     }
 
     public String seu(){
-        if(estat != "assegut"){
-            this.estat = "assegut";
+        if(gatEstat != GatEstat.ASSEGUT){
+            this.gatEstat = GatEstat.ASSEGUT;
             return "m'assec";
         }
         else return"no faig res";
     }
 
     public String estirat(){
-        if(estat != "estirat"){
-            this.estat = "estirat";
+        if(gatEstat != GatEstat.ESTIRAT){
+            this.gatEstat = GatEstat.ESTIRAT;
             return "m'estiro";
         }
         else return"no faig res";
@@ -33,15 +33,15 @@ public class GatRenat {
     }
 
     public boolean estaDret(){
-        return estat == "dret" ? true : false ;
+        return gatEstat == gatEstat.DRET ? true : false ;
     }
 
     public boolean estaAssegut(){
-        return estat == "assegut" ? true : false ;
+        return gatEstat == GatEstat.ASSEGUT ? true : false ;
     }
 
     public boolean estaEstirat(){
-        return estat == "estirat" ? true : false ;
+        return gatEstat == GatEstat.ESTIRAT ? true : false ;
     }
     
     public GatEstat getEstat() { 
@@ -49,15 +49,25 @@ public class GatRenat {
     }
 
     public String getEstatComString() { 
+        String estat="";
+        if(gatEstat == gatEstat.DRET)estat="dret";
+        if(gatEstat == GatEstat.ASSEGUT)estat="assegut";
+        if(gatEstat == GatEstat.ESTIRAT)estat="estirat";
         return estat;
     }
 
 
     public void setEstat(String estat) {
-        if (estat =="dret"||estat =="assegut"||estat =="estirat") {
-            this.estat = estat;   
-        }
-    }
+         if (estat =="dret"){
+            this.gatEstat = gatEstat.DRET;
+         }
+         if(estat =="assegut"){
+            this.gatEstat = gatEstat.ASSEGUT;
+         }
+         if(estat =="estirat") {
+            this.gatEstat = gatEstat.ESTIRAT;
+         }
+     }
 
     public void setEstat(GatEstat gatEstat) {
         if (gatEstat == gatEstat.DRET ||gatEstat == GatEstat.ASSEGUT ||gatEstat == GatEstat.ESTIRAT) {
