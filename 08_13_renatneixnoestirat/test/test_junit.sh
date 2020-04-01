@@ -1,7 +1,6 @@
 #! /bin/bash
 
-# Aquest programa realitza els tests per l'exercici d'enfonsa la Flota
-# Se n'encarrega de la part de les proves unitàries
+# Script per executar les proves unitàries
 
 current=$(dirname "$0")
 

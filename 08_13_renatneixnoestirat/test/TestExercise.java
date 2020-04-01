@@ -135,4 +135,14 @@ public class TestExercise {
         assertEquals(GatEstat.DRET, renat.getEstat());
     }
 
+    @Test
+    public void sensePropietatString() {
+        for (java.lang.reflect.Field field: GatRenat.class.getDeclaredFields()) {
+            assertFalse("Aquesta versió de GatRenat no necessita el camp de tipus String " +
+                    field.getName(),
+                    field.getType().isAssignableFrom(String.class));
+        }
+    }
+
+
 }
