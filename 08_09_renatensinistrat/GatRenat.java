@@ -1,3 +1,7 @@
+/*
+*Afegint més metodes a la Classe GatRenat per tal de dinamitza 
+*la seves respostes
+*/
 public class GatRenat {
     int vides = 7;
     String estat = "estirat";

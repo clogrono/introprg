@@ -1,3 +1,6 @@
+/**
+ * Altre main que comprova l'accés al GatRenat
+ */
 public class UsaGatRenat {
     public static void main(String[] args) {
         GatRenat renat = new GatRenat();  

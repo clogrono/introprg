@@ -1,3 +1,6 @@
+/*
+*Implementació d'un entorn intermedi que fa de intermediari entre gatRenat i el usuari 
+*/
 public class EntornOperatiu{
     GatRenat renat;
 

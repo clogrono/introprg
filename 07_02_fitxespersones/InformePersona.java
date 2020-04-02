@@ -1,3 +1,9 @@
+/*
+*Ampliare l'utilització de metodes i el seu potencial
+*pasan en aquest cas per parametre arrays per tal de fer
+*mes dinàmic el nostre programa, guardanr una infinat de valor 
+*que despres podem accedir aun un sol for i no repetint codi 
+ */
 import java.util.Scanner;
 public class InformePersona {
     

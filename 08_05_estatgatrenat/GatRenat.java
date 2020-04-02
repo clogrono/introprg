@@ -1,3 +1,7 @@
+/*
+*Implementacio del gat renat donant-li valor predefinits d'inici
+*i accedint aquests
+ */
 public class GatRenat {
     int vides = 7;
     String estat = "estirat";                // vides disponibles del gat Renat

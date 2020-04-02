@@ -1,3 +1,10 @@
+/*
+*Amb aquest cas utilitzarem tot el après fins ara,
+*El objectes, les arrays, metodes.
+*Amb totes aquestes eines el dinamisme del nostre incremento moltissim
+*fem servir arrays de objectes que les passem per parametre per tal de
+*accedir a la informació de cada objecte amb un simple for.
+ */
 import java.util.Scanner;
 public class InformePersona {
     

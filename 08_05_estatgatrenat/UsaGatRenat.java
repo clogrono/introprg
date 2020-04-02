@@ -1,3 +1,8 @@
+/*
+ *Implementació d'un nou main per tal de comprovar l'acesibilitat a la clase GatRenat
+ * 
+ *  
+ */
 public class UsaGatRenat {
     public static void main(String[] args) {
         GatRenat renat = new GatRenat();  

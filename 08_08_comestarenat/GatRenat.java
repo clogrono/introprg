@@ -1,3 +1,8 @@
+/**
+ * Afegint nous metodes a la Clase gat renar per tal de dinamitzar
+ * la classe i donant-li funcions a acada metode que retornen una resposta
+ * adient a la crida de la classe
+ */
 public class GatRenat {
     int vides = 7;
     String estat = "estirat";

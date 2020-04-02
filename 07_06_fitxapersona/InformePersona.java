@@ -1,3 +1,8 @@
+/*
+*En aquest cas en lloc de variables fem servir clases que namgatzemarán 
+*les dades del nostre programa, estem treballan amb un objecte i cada atribut 
+*es una propietat a la qual podem accedir i assignar-li un valor.
+ */
 import java.util.Scanner;
 public class InformePersona {
 

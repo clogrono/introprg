@@ -1,3 +1,12 @@
+/*
+*Amb aquest exercici introduim el tractament de dades 
+*entrada per teclat i asignació de variables
+*també la cracio de metodes que ens ajuden
+*en aquest li pasem per parametre valor per que ens retorni
+*un print de l'estructura que busquem
+*/
+
+
 import java.util.Scanner;
 public class InformePersona {
     

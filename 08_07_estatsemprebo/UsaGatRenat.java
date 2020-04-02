@@ -1,3 +1,6 @@
+/*
+*Altre main per comprovar l'accesibilitat a la classe gatRenat
+*/
 public class UsaGatRenat {
     public static void main(String[] args) {
         GatRenat renat = new GatRenat();  

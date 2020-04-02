@@ -1,3 +1,6 @@
+/*
+*Implementació de constructors al GatRenat
+*/
 public class GatRenat {
    
     GatEstat gatEstat=GatEstat.ESTIRAT;

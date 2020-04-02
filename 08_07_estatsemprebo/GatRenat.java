@@ -1,3 +1,6 @@
+/**
+ * Implementant metodes propis de la clase gatRenat per poder accedir als seus valors 
+ */
 public class GatRenat {
     int vides = 7;
     String estat = "estirat";

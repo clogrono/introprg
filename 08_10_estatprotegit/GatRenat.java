@@ -1,3 +1,6 @@
+/* implementació de la classe GatRenat amb l'estat implementat 
+*amb GatEstat 
+*/
 public class GatRenat {
    
     GatEstat gatEstat = GatEstat.ESTIRAT;
