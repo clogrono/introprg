@@ -1,6 +1,8 @@
 /*
 *Afegint més metodes a la Classe GatRenat per tal de dinamitza 
-*la seves respostes
+*la seves respostes, metodes que el fan seure, aixecar-se, estirarse
+*que fa que l'experiencia de l'usuari sigui mes ralista la resposta
+*del gat es com si fos amb un a gat real.
 */
 public class GatRenat {
     int vides = 7;

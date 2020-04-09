@@ -1,10 +1,9 @@
 /**
- * En aquesta clase implementarem un tipus de rellotge
- * en la que farem servir metodes per incrementar 
- * i decrementar el temps, amb formules per calcular la hora a partir dels segons intrduits.
- * També introuduirem metodes com toString que retorna string con el valors del objecte
- * compareTo que compara dos objectes.
- * 
+ * Implementarem metodes estatics que son accesible desde la propia mateixa clase
+ * als cuals no haurem d'instancia per poder-los fer servir.
+ * Directament accedirem aquests metodes nombran a la classe y cridant al metode
+ * en questió, em creat esValid en versio estatica que implementarem al constructo 
+ * amb parametres per comprovar la validesa de hora, el mateix amb compareTo i duplica
  */
 public class Hora {
 
@@ -19,7 +18,7 @@ public class Hora {
     }
 
     public Hora(int hores, int minuts, int segons){
-        if((hores >= 0 && hores<=23)&&(minuts >= 0 && minuts<=59)&&(segons >= 0 && segons<=59)){
+        if(Hora.esValida(hores, minuts, segons)){
             this.hora=hores;
             this.minut=minuts;
             this.segon=segons;
@@ -164,6 +163,22 @@ public class Hora {
 
     }
 
+    public static boolean esValida(int hores, int minuts, int segons){
+
+        if((hores >= 0 && hores<=23)&&(minuts >= 0 && minuts<=59)&&(segons >= 0 && segons<=59)){
+            return true;
+        }else{
+            return false;
+        }
+
+
+    }
+
+    public static Hora duplica(Hora h){
+        Hora h1 = new Hora(h.getHores(),h.getMinuts(),h.getSegons());
+        return h1;
+    }
+
 
     public int getHores(){
         return hora;
@@ -207,6 +222,25 @@ public class Hora {
 
     }
 
+    public static int compareTo(Hora h1, Hora h2){
+        
+        if((h1.getHores() == h2.getHores())&&(h1.getMinuts() == h2.getMinuts())&&(h1.getSegons() == h2.getSegons())){
+            return 0;
+        }else{
+            if((h1.getHores() >= h2.getHores())&&(h1.getMinuts() >= h2.getMinuts())&&(h1.getSegons() > h2.getSegons())
+            ||(h1.getHores() >= h2.getHores())&&(h1.getMinuts() > h2.getMinuts())&&(h1.getSegons() >= h2.getSegons())
+            ||(h1.getHores() > h2.getHores())&&(h1.getMinuts() >= h2.getMinuts())&&(h1.getSegons() >= h2.getSegons())){
+                return 1;
+            }
+            else{
+                return -1;
+            }
+
+        }
+
+    }
+
+
     public String toString(){
         
         return String.format("%d:%02d:%02d",
@@ -224,7 +258,11 @@ public class Hora {
         // System.out.println(h.getHores()+":"+h.getMinuts()+":"+h.getSegons());
         h.decrementa(86399);
         System.out.println(h.toString());
+        System.out.println(Hora.esValida(h.getHores(), h.getMinuts(),h.getSegons()));
         System.out.println(h.compareTo(new Hora(3,2,26)));
+        System.out.println(Hora.duplica(h).toString());
+
+
        
     }
 
