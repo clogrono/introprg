@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+b {
+    border: 2px solid orangered;
+    border-radius: 10px;
+    background: orange;
+    box-shadow: 2px 2px 1px orangered;
+    padding: 1em;
+}
+p {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #0CB1C4;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+}
+img {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    top: 1.2em;
+}
+
+input[type="text"] {
+    margin: 3em 0 1em;
+    width: 50%;
+    box-shadow: 2px 2px 1px;
+}
+
+input[type="submit"] {
+    box-shadow: 2px 2px 1px;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
