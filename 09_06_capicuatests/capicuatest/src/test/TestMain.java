@@ -1,3 +1,9 @@
+/*
+*En aqest tes comprovarem que ens retorna els valors que 
+*s'esperem, provem amb paraules que ja son capicua
+*amb paraules que no ho so i es converteixen al retornar
+*i quan no s'envia res, ens retorna anna o si esta buit.
+ */
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
