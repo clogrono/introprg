@@ -9,7 +9,7 @@ import static spark.Spark.get;
 public class Main {
 
     static String composaSalutacio(String nom) {
-        if (nom == null || nom.isEmpty()) {
+        if (nom == null) {
             nom = "anna";
         }else{
             String capicua="";
