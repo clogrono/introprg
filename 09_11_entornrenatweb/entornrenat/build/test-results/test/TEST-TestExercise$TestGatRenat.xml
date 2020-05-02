@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestExercise$TestGatRenat" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-05-02T06:15:08" hostname="DESKTOP-RB8PCLC" time="0.02">
+  <properties/>
+  <testcase name="testRenatNoFaResQuanDemanemQueSEstiriIJaHoEstava()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatPotEstarDret()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatPotEstarAssegut()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatDiuEstarEstiratEnNeixer()" classname="TestExercise$TestGatRenat" time="0.001"/>
+  <testcase name="testRenaNoPotCorrer()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatPotEstirarse()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatDiuNoEstarAssegutQuanNoHoEsta()" classname="TestExercise$TestGatRenat" time="0.001"/>
+  <testcase name="testRenatNeixDret()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatDiuNoEstarDretQuanNoHoEsta()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatNeixEstirat()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatDiuNoEstarEstiratQuanDret()" classname="TestExercise$TestGatRenat" time="0.001"/>
+  <testcase name="testRenatNoEstaViuAmbZeroVides()" classname="TestExercise$TestGatRenat" time="0.001"/>
+  <testcase name="testRenatSeu()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatDiuEstarAssegutQuanHoEsta()" classname="TestExercise$TestGatRenat" time="0.001"/>
+  <testcase name="testRenatSAixeca()" classname="TestExercise$TestGatRenat" time="0.001"/>
+  <testcase name="testRenatSEstira()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatDiuEstarDretQuanHoEsta()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatNoFaResQuanDemanemQueSAsseguiIJaHoEstava()" classname="TestExercise$TestGatRenat" time="0.001"/>
+  <testcase name="testRenatNoFaResQuanDemanemQueSAixequiIJaHoEstava()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatNeixViu()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <testcase name="testRenatCanviaEstatAmbGatEstat()" classname="TestExercise$TestGatRenat" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

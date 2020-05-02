@@ -1,0 +1,36 @@
+/*
+ * Aquest fitxer configura les tasques de gradle.
+ *
+ * Es tracta d'una configuració mínima per permetre construir una webapp
+ * amb el microframework spark, el sistema de plantilles freemarker,
+ * i testable amb JUnit5
+ */
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
+
+    // spark i freemarker
+    implementation 'com.sparkjava:spark-core:2.8.0'
+    implementation 'org.slf4j:slf4j-simple:1.7.6'
+    implementation 'com.sparkjava:spark-template-freemarker:2.7.1'
+}
+
+application {
+    mainClassName = 'Main'
+}
+
+test {
+    useJUnitPlatform()
+    dependsOn 'cleanTest'
+}
