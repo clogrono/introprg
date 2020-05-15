@@ -1,0 +1,22 @@
+/*
+ * Configuració d'un programa que comprovi la connectivitat
+ * amb SQLite
+ */
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // sqlite
+    implementation 'org.xerial:sqlite-jdbc:3.8.9.1' 
+}
+
+application {
+    mainClassName = 'Main'
+}
