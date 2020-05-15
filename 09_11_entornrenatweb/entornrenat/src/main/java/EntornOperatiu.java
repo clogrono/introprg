@@ -22,25 +22,22 @@ public class EntornOperatiu{
         if(entrada.equals("com estàs?")){
             return "estic "+renat.getEstatComString();
         }
-        
-        if (entrada.equals("aixeca't")) {
+        else if (entrada.equals("aixeca't")) {
             return renat.aixecat();
         }
-        if(entrada.equals("seu")){
+        else if(entrada.equals("seu")){
             return renat.seu();
         }
-
-        if(entrada.equals("estira't")){
+        else if(entrada.equals("estira't")){
             return renat.estirat();
         }
-        else{
-            if(entrada.toLowerCase().equals("adéu")){
-                return "adéu";
-            }
-            else{
-                return "no t'entenc";
-            }
+        else if(entrada.toLowerCase().equals("adeu")){
+            return "adeu";
         }
+        else{
+            return "no t'entenc";
+        }
+    
         
     }
 
