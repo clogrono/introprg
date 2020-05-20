@@ -1,6 +1,7 @@
 /*
  * Aquest fitxer configura les tasques de gradle.
  *
+ *
  * Es tracta d'una configuració mínima per permetre construir una webapp
  * amb el microframework spark, el sistema de plantilles freemarker,
  * i testable amb JUnit5

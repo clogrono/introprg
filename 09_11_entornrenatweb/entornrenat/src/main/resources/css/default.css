@@ -9,17 +9,27 @@ b {
     padding: 1em;
 }
 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     width: 445px;
     height: 100px;
     background-color: #0CB1C4;
     border: 5px solid black;
+    font-weight: bold;
+    font-size: 2rem;
+    color:blanchedalmond;
 
+}
+label{
+    padding: 0px 5px;
 }
 .input-form{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-top: 10px;
 }
 .container{
     display: flex;
